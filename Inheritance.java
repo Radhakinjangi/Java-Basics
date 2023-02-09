@@ -2,13 +2,16 @@ class Animal {
     void eat(){System.out.println("I am eating");}
 
 }
+//singleinheritance
 class Fox extends Animal{
     void bark(){System.out.println("i am barking");
     }
 }
+//multilevel inheritance
 class BabyDog extends Fox{
     void weep(){System.out.println("weeping...");}
 }
+//hierarchical inheritance
 class Cat extends Animal{
     void meow(){System.out.println("meowing...");}
 }
