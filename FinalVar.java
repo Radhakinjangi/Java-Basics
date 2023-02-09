@@ -3,7 +3,7 @@ public class FinalVar {
     {
         final int i;
         i = 20;
-        static final double PI = 3.141592653589793;
+        //static final double PI = 3.141592653589793;
         System.out.println(PI);
         System.out.println(i);
     }
