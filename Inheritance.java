@@ -26,7 +26,7 @@ class Cat extends Animal{
 //        obj.msg();//Now which msg() method would be invoked?
 //    }
 //}
-public class SingleInheritance {
+public class Inheritance {
     public static void main(String[] args) {
         BabyDog v = new BabyDog();
         Cat c=new Cat();
