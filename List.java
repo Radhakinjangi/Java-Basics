@@ -50,6 +50,7 @@ public class List {
         while(itr2.hasNext()){
             System.out.println(itr2.next());
         }
+        System.out.println(s1.empty()+" "+s1.search("ashu")+" "+s1.firstElement()+" "+s1.contains("rajitha"));
 
 
     }
