@@ -16,6 +16,7 @@ public class Set {
         ls.add("Vijay");
         ls.add("Ravi");
         ls.add("Ajay");
+        ls.stream();
 //Traversing elements
         Iterator<String> itr = ls.iterator();
         while (itr.hasNext()) {
